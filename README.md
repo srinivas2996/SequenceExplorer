@@ -16,22 +16,29 @@ A simple Java program that allows users to generate **Fibonacci**, **Tribonacci*
 ### Single Number Input
 Enter a single number: 5
 Choice: Fib
-Output: 0 1 1 2 3
+Output: Fibonacci sequence for 5: 0 1 1 2 3
 
 ### Multiple Numbers Input
 Enter 3 numbers: 4 6 8
 Choice: Trib
 Output:
-0 0 1 1
-0 0 1 1 2 4
-0 0 1 1 2 4 7 13
+Tribonacci sequence for 4: 0 0 1 1 
+Tribonacci sequence for 6: 0 0 1 1 2 4 
+Tribonacci sequence for 8: 0 0 1 1 2 4 7 13 
 
 ### Factorial with BigInteger
 Enter number: 100
 Choice: Fact
 Select type: BigInteger
-Output: 933262154439441526816992388562667004907159682643816214...
+Output: Factorial of 100 is: 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
 
+### Factorial with BigInteger for Multiple Numbers Input
+Enter 3 numbers: 55 68 5
+Choice: Fact
+Output: 
+Factorial of 55 is: 12696403353658275925965100847566516959580321051449436762275840000000000000
+Factorial of 68 is: 2480035542436830599600990418569171581047399201355367672371710738018221445712183296000000000000000
+Factorial of 5 is: 120
 
 ## Getting Started
 1. Clone the repository:```bash -- git clone https://github.com/<your-username>/<repo-name>.git
