@@ -14,23 +14,16 @@ A simple Java program that allows users to generate **Fibonacci**, **Tribonacci*
 
 ## Example Usage
 ### Single Number Input
-Enter a single number: 5
-Choice: Fib
-Output: Fibonacci sequence for 5: 0 1 1 2 3
+<img width="571" height="188" alt="image" src="https://github.com/user-attachments/assets/2e41fc08-b220-4c55-93ae-e15a17c9a679" />
+
 
 ### Multiple Numbers Input
-Enter 3 numbers: 4 6 8
-Choice: Trib
-Output:
-Tribonacci sequence for 4: 0 0 1 1 
-Tribonacci sequence for 6: 0 0 1 1 2 4 
-Tribonacci sequence for 8: 0 0 1 1 2 4 7 13 
+<img width="574" height="274" alt="image" src="https://github.com/user-attachments/assets/e7377eb7-7c7b-422c-bf42-af5f1b358f01" />
+
 
 ### Factorial with BigInteger
-Enter number: 100
-Choice: Fact
-Select type: BigInteger
-Output: Factorial of 100 is: 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
+<img width="1805" height="230" alt="image" src="https://github.com/user-attachments/assets/8e2418d9-d6be-4213-8efd-1623561a1039" />
+
 
 ### Factorial with BigInteger for Multiple Numbers Input
 <img width="1174" height="273" alt="image" src="https://github.com/user-attachments/assets/5fe35f4e-6205-4013-8963-dd7505f8a2ee" />
