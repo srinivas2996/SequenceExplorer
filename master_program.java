@@ -121,29 +121,22 @@ public class master_program {
         }
     }
 
-    // ---------------- Factorial ----------------
+ // ---------------- Factorial ----------------
     private static void printFactorial() {
-        if(arr != null) {
-            for(int num : arr) {
-            	BigInteger fact = BigInteger.ONE;
-                for(int i=1; i<=num; i++) fact = fact.multiply(BigInteger.valueOf(i));;
+        if (arr != null) {
+            for (int num : arr) {
+                BigInteger fact = BigInteger.ONE;
+                for (int i = 1; i <= num; i++) {
+                    fact = fact.multiply(BigInteger.valueOf(i));
+                }
                 System.out.println("Factorial of " + num + " is: " + fact);
             }
         } else {
-            System.out.println("Do you want factorial as int or BigInteger? (1 for int, 2 for BigInteger)");
-            int factType = sc.nextInt();
-
-            if(factType == 1) {
-                int fact = 1;
-                for(int i=1; i<=n; i++) fact *= i;
-                System.out.println("Factorial of " + n + " is: " + fact);
-            } else if(factType == 2) {
-                BigInteger fact = BigInteger.ONE;
-                for(int i=1; i<=n; i++) fact = fact.multiply(BigInteger.valueOf(i));
-                System.out.println("Factorial of " + n + " is: " + fact);
-            } else {
-                System.out.println("Invalid choice");
+            BigInteger fact = BigInteger.ONE;
+            for (int i = 1; i <= n; i++) {
+                fact = fact.multiply(BigInteger.valueOf(i));
             }
+            System.out.println("Factorial of " + n + " is: " + fact);
         }
     }
-}
+ }
